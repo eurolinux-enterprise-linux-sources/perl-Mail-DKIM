@@ -1,6 +1,6 @@
 Name:           perl-Mail-DKIM
 Version:        0.39
-Release:        7.1%{?dist}
+Release:        8%{?dist}
 Summary:        Sign and verify Internet mail with DKIM/DomainKey signatures
 Group:          Development/Libraries
 License:        (GPL+ or Artistic) and GPL and Copyright Only
@@ -55,6 +55,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.39-8
+- Mass rebuild 2013-12-27
+
 * Wed Aug 07 2013 Petr Šabata <contyk@redhat.com> - 0.39-7.1
 - Add a few more missing build-time deps
 - Correct the licence tag
